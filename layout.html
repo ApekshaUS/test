@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+	<style>
+	.menubar
+	{	
+		border-sizing:border-content;
+		border:1px solid black;
+		width:90%;
+		height:50px;
+		margin-left:5%;
+		background-color:#B0C4DE;
+		padding-top:0%;
+		padding-bottom:2%;
+		margin-block-start: 0px;
+		//margin-top: 5%;
+	}
+	.nav 
+	{
+		padding-left:75%;
+		padding-top:3%;
+	}
+	.nav a:hover 
+	{
+		background-color: white;
+		color: black;
+	}
+    .nav a
+	{
+		padding-left: 70%;
+		border: 2px solid white;
+		padding: 7px;
+		/*border-sizing:border-box;
+		width:20px;
+		height:2px;*/
+		border-radius: 25px;
+		background-color:lightgray;
+		font-weight:bold;
+		color:black;
+		padding-top: 1%;
+	}
+	.header
+	{
+		color:white;
+		font-size: 30px;
+		margin-block-start: 0px;
+		margin-top: 0%;
+		margin-bottom: 0%;
+		padding-left:9%;
+		float:left;
+    }
+	.p1
+	{
+		padding-left:5%;
+		padding-right:5%;
+		font-weight:bold;
+	}
+    .para
+    {
+    	margin-top:3%;
+    }
+    .article
+    {
+		padding-top:2%;
+    	padding-left:5%;
+		padding-right:5%;
+    }
+    .section
+    {
+    	width:50%;
+    	float:left; 
+    }
+    .aside
+    {
+    	width:45%;
+    	float:right;
+    	padding-top: 15px;
+    }
+    .a1
+    {
+    	border: 1px solid black;
+    	background-color: #B0C4DE;
+    	height: 100px;
+    	margin-bottom: 1%;
+    	text-align:center;
+    	font-weight: bold;
+    	font-size: 30px;
+    	font-color: black;
+    	padding-top: 9%;
+    }
+    a:link
+    {
+    	text-decoration: none;
+    	color: black;
+    }
+    .a1:hover
+    {
+    	background-color: white;
+    }
+    .footer
+    {
+    	clear:both;
+    	background-color: gray;
+    	padding-left: 70%;
+    }
+	.s1 p
+	{
+		text-align:justify;
+	
+	}
+	@media(max-width: 400px)
+	{	
+		.header
+		{
+		     font-size: 15px !important;
+			 color: white;
+			font-size: 30px;
+			margin-block-start: 0px;
+			margin-top: 0%;
+			margin-bottom: 0%;
+			padding-left: 0%;
+			float: left;
+        }
+		.nav 
+		{
+			    width: 45%;
+				padding-top: 17px !important;
+				padding-right: 0%;
+				font-size: 7px;
+				padding-left: 50% !important;
+		}
+		.menubar
+		{
+			padding-left:1%;
+			border
+		}
+		.para
+		{
+			font-size: 13px;
+		}
+		.section
+		{
+			width: 100%;	
+		
+		}
+		.aside
+		{
+			width:100%;
+			
+		
+		}
+		.footer
+		{
+			padding-left:5%;
+		}
+	}
+	@media (max-width:900px)
+	{
+		.menubar{
+		padding-bottom: 5%;
+		}
+		.p1
+		{
+		font-size: 15px;
+		}
+		.nav{
+		padding-left: 60%;
+		padding-top: 4%;
+		}
+		.section
+		{
+			width: 100%;	
+		}
+		.aside
+		{
+			width:100%;
+		}
+		.footer
+		{
+			padding-left:5%;
+		}
+	}
+	</style>
+    <body>
+    <div class ="menubar">
+    	<div class="header">
+            <p>HTML5 LAYOUT</p>
+        </div>
+        
+		<div class="nav">
+			    <a class="active" href="#home">Home</a>
+				<a href="#html">HTML</a>
+				<a href="#css">CSS</a>
+				<a href="#JS">JS</a>
+		</div>
+		</div>
+	<div class="p1">
+        <p class="para">Demonstration of a simple page layout using HTML5 tags:header,section,main,article,aside,footer,address.</p>
+        <hr>
+    </div>
+    </body>
+        <div class="article">
+        	<div class="section">
+            <div class="s1">
+            	<h3>HTML</h3>
+            	<p>HTML5 is a software solution stack that defines the properties and behaviors of web page content by implementing a markup based pattern to it.HTML5 is the fifth and current major version of HTML, and subsumes XHTML. The current standard, the HTML Living Standard is developed by WHATWG, which is made up of the major browser vendors (Apple, Google, Mozilla, and Microsoft), with the Living Standard also existing in an abridged version.</p>
+            </div>
+            <hr style="border-top: dotted;color:gray;">
+           <div class="s1">            	
+           	<h3>CSS</h3>
+            	<p> Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.</p>
+            </div>
+            <hr style="border-top: dotted;color:gray;">
+            <div class="s1">
+            	<h3>JS</h3>
+            	<p>JavaScript is a scripting or programming language that allows you to implement complex things on web pages — every time a web page does more than just sit there and display static information for you to look at — displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, etc. — you can bet that JavaScript is probably involved.</p>
+            </div>
+        </div>
+        	<div class="aside">
+        	<div class="a1">
+        	<a href="#HTML">Section1</a>
+        	</div>
+        	<div class="a1">
+        	<a href="#css">Section2</a>
+        	</div>
+        	<div class="a1">
+        	<a href="#JS">Section3</a>
+        	</div>
+        </div>
+    </div>
+        <div class="footer">
+        	<h3>this is how the page layout looks @copywrite</h3>
+        	
+        </div>
+    </body>
+</html>
